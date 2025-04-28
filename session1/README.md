@@ -315,6 +315,15 @@ First, load the mamba module:
 module load Mamba/23.11.0-0
 ```
 
+First time conda is run, it must be initialized:
+
+```bash
+# Adds conda to bash_profile
+conda init;
+# Adds conda to current session (not needed for future sessions)
+source ~/.bash_profile;
+```
+
 Then, activate the provided Conda environment:
 
 ```
